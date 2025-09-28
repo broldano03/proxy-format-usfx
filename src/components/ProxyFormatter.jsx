@@ -1,6 +1,6 @@
 // src/components/ProxyFormatter.jsx
 "use client";
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 const LS_KEY = "pf_label"; // clave para guardar el nombre en localStorage
 
