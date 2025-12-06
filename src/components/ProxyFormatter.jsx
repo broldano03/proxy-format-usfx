@@ -42,7 +42,7 @@ export default function ProxyFormatter() {
       }
     }
 
-    const top = proxies.slice(0, 25);
+    const top = proxies.slice(0, 100); // ← ← ← ÚNICO CAMBIO (antes 25)
     if (top.length === 0) return [];
 
     const prefix = (namePrefix?.trim() || "USA").toString();
